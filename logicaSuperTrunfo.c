@@ -76,93 +76,93 @@ int main() {
     switch(opcao) {
         case 1:
         if(populacaoa1>populacaoa2){
-            printf("O População da cidade 1: %d\n",populacaoa1);
-            printf("O População da cidade 2: %d\n",populacaoa2);
-            printf("A cidade 1 venceu!!! \n");
+            printf("A População de %s: %d\n",nomea1,populacaoa1);
+            printf("A População de %s: %d\n",nomea2,populacaoa2);
+            printf("A cidade de %s venceu!!! \n",nomea1);
         }else if(populacaoa1<populacaoa2){
-            printf("O População da cidade 1: %d\n",populacaoa1);
-            printf("O População da cidade 2: %d\n",populacaoa2);
-            printf("A cidade 2 venceu!!! \n");
+            printf("A População de %s: %d\n",nomea1,populacaoa1);
+            printf("A População de %s: %d\n",nomea2,populacaoa2);
+            printf("A cidade de %s venceu!!! \n",nomea2);
         } else {
-            printf("O População da cidade 1: %d\n",populacaoa1);
-            printf("O População da cidade 2: %d\n",populacaoa2);
+            printf("A População de %s: %d\n",nomea1,populacaoa1);
+            printf("A População de %s: %d\n",nomea1,populacaoa2);
             printf("Empate!!! \n");
         } 
         break;
         case 2:
         if(areaa1>areaa2){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 1 venceu!!! \n");
-        }else if(areaa1<areaa1){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 2 venceu!!! \n");
+            printf("A Area de %s: %.2f\n",nomea1,areaa1);
+            printf("A Area de %s: %.2f\n",nomea2,areaa2);
+            printf("A cidade de %s venceu!!! \n",nomea1);
+        }else if(areaa1<areaa2){
+            printf("A Area de %s: %.2f\n",nomea1,areaa1);
+            printf("A Area de %s: %.2f\n",nomea2,areaa2);
+            printf("A cidade de %s venceu!!! \n",nomea2);
         } else {
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
+            printf("A Area de %s: %.2f\n",nomea1,areaa1);
+            printf("A Area de %s: %.2f\n",nomea1,areaa2);
             printf("Empate!!! \n");
-        }
+        } 
         break;
         case 3:
-        if(areaa1>areaa2){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 1 venceu!!! \n");
-        }else if(areaa1<areaa1){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 2 venceu!!! \n");
+        if(piba1>piba2){
+            printf("O PIB de %s: %.2f\n",nomea1,piba1);
+            printf("O PIB de %s: %.2f\n",nomea2,piba2);
+            printf("A cidade de %s venceu!!! \n",nomea1);
+        }else if(piba1<piba2){
+            printf("O PIB de %s: %.2f\n",nomea1,piba1);
+            printf("O PIB de %s: %.2f\n",nomea2,piba2);
+            printf("A cidade de %s venceu!!! \n",nomea2);
         } else {
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
+            printf("O PIB de %s: %.2f\n",nomea1,piba1);
+            printf("O PIB de %s: %.2f\n",nomea1,piba2);
             printf("Empate!!! \n");
-        }
+        } 
         break;
         case 4:
-        if(areaa1>areaa2){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 1 venceu!!! \n");
-        }else if(areaa1<areaa1){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 2 venceu!!! \n");
+        if(turisticosa1>turisticosa2){
+            printf("Numero de Pontos Turisticos de %s: %d\n",nomea1,turisticosa1);
+            printf("Numero de Pontos Turisticos de %s: %d\n",nomea2,turisticosa2);
+            printf("A cidade de %s venceu!!! \n",nomea1);
+        }else if(turisticosa1<turisticosa2){
+            printf("Numero de Pontos Turisticos de %s: %d\n",nomea1,turisticosa1);
+            printf("Numero de Pontos Turisticos de %s: %d\n",nomea2,turisticosa2);
+            printf("A cidade de %s venceu!!! \n",nomea2);
         } else {
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
+            printf("Numero de Pontos Turisticos de %s: %d\n",nomea1,turisticosa1);
+            printf("Numero de Pontos Turisticos de %s: %d\n",nomea1,turisticosa2);
             printf("Empate!!! \n");
-        }
+        } 
         break;
         case 5:
-        if(areaa1>areaa2){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 1 venceu!!! \n");
-        }else if(areaa1<areaa1){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 2 venceu!!! \n");
+        if(densidadea1<densidadea2){
+            printf("A Densidade Populacional de %s: %.2f\n",nomea1,densidadea1);
+            printf("A Densidade Populacional de %s: %.2f\n",nomea2,densidadea2);
+            printf("A cidade de %s venceu!!! \n",nomea1);
+        }else if(densidadea1>densidadea2){
+            printf("A Densidade Populacional de %s: %.2f\n",nomea1,densidadea1);
+            printf("A Densidade Populacional de %s: %.2f\n",nomea2,densidadea2);
+            printf("A cidade de %s venceu!!! \n",nomea2);
         } else {
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
+            printf("A Densidade Populacional de %s: %.2f\n",nomea1,densidadea1);
+            printf("A Densidade Populacional de %s: %.2f\n",nomea1,densidadea2);
             printf("Empate!!! \n");
-        }
+        } 
         break;
         case 6:
-        if(areaa1>areaa2){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 1 venceu!!! \n");
-        }else if(areaa1<areaa1){
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
-            printf("A cidade 2 venceu!!! \n");
+        if(pibpercapa1>pibpercapa2){
+            printf("O PIB Per Capita de %s: %.2f\n",nomea1,pibpercapa1);
+            printf("O PIB Per Capita de %s: %.2f\n",nomea2,pibpercapa2);
+            printf("A cidade de %s venceu!!! \n",nomea1);
+        }else if(pibpercapa1<pibpercapa2){
+            printf("O PIB Per Capita de %s: %.2f\n",nomea1,pibpercapa1);
+            printf("O PIB Per Capita de %s: %.2f\n",nomea2,pibpercapa2);
+            printf("A cidade de %s venceu!!! \n",nomea2);
         } else {
-            printf("O Área da cidade 1: %.2f\n",areaa1);
-            printf("O Área da cidade 2: %.2f\n",areaa2);
+            printf("O PIB Per Capita de %s: %.2f\n",nomea1,pibpercapa1);
+            printf("O PIB Per Capita de %s: %.2f\n",nomea1,pibpercapa2);
             printf("Empate!!! \n");
-        }
+        } 
         break;
         case 7:
         printf("Saindo...\n");
